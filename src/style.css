@@ -4,15 +4,18 @@
 
 @layer base {
     body {
-        font-family: 'Roboto', sans-serif; 
+        font-family: 'Montserrat', serif; 
     }
     h1 {
-        font-family: 'Oswald', sans-serif; 
+        font-family: 'Bebas Neue', sans-serif; 
     }
     h2 {
-        font-family: 'Oswald', sans-serif;
+        font-family: 'Bebas Neue', sans-serif;
     }
     .knap{
-        font-family: 'Oswald', sans-serif;
+        font-family: 'Montserrat', serif;
+    }
+    .indhold{
+        font-family: 'Bebas Neue', sans-serif;
     }
 }
