@@ -5,97 +5,156 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Københavnerbilleder</title>
   </head>
-  <body class="">
+  <body>
     <!--Hero element-->
-  <div class="">
-    <img src="img/0008.jpg" alt="hero" class="">
-  <div class="flex-col">
-      <h1 class="mt-8 text-center font-bold text-5xl tracking-wide">Københavnerbilleder</h1>
-    <p class="text-center text-lg">- en guide til hipsterfoto</p>
-    <p class="text-center text-xs">af Sten Simons</p>
-    <p class="bg-cyan-600 knap tracking-wide p-2 m-4 w-80 rounded-md text-center text-2xl text-white">Køb bogen nu</p>
+  <div class="sm:grid grid-cols-4">
+    <img src="img/0008.webp" alt="hero" class="sm:col-start-1 sm:col-end-3">
+  <div class="sm:col-start-3 sm:col-end-5 flex flex-col place-items-center">
+      <h1 class="xl:text-7xl xl:tracking-wider lg:text-6xl lg:tracking-wide lg:mt-20 sm:mt-12 sm:text-3xl mt-28 mx-8 font-bold text-5xl tracking-wider">Københavnerbilleder</h1>
+    <p class="xl:text-2xl text-lg">- en <span class="text-primary400 italic">guide</span> til hipsterfoto</p>
+    <p class="xl:text-lg mt-4 text-xs">af Sten Simons</p>
+    <a href="#0" class="xl:mt-28 xl:text-3xl xl:py-4 xl:px-8 lg:text-2xl lg:mt-12 sm:mt-4 sm:text-sm sm:py-2 mt-32 bg-primary100 knap tracking-wide py-4 px-6 rounded-md text-center text-2xl font-light text-primary hover:text-primary100 hover:bg-primary">Køb bogen nu</a>
   </div>
 </div>
+<!--Indholdsfortegnelse
+<div class="sm:pt-16 indhold flex flex-col place-items-start pt-32 pl-16">
+    <a href="#0" class="first-letter:text-4xl"><span class="text-primary500">1.</span> De danske streetfotografers bibel</a>
+    <a href="#0" class="first-letter:text-4xl"><span class="text-primary500">3.</span> Du kan glæde dig til..</a> 
+    <a href="#0" class="first-letter:text-4xl"><span class="text-primary500">5.</span> Det siger dem, der ved noget om noget</a>
+    <a href="#0" class="first-letter:text-4xl"><span class="text-primary500">8.</span> Ham, der skrev den</a>
+</div>--> 
+
   <!--Kort om bogen-->
-  <div class="mt-32 mb-12 ml-6">
-    <h2 class="ml-8 text-2xl font-bold mt-8">De danske streetfotografers bibel</h2>
-    <p class="text-left mx-8 mt-2 leading-relaxed">"Københavnerbilleder" er en fusion mellem et kunstværk og en lærebog. Bogen gennemgår alle væsentlige aspekter af streetfotografering fra grundlæggende teknik til kreative eksperimenter. Alt sammen krydret med masser af inspirerende fotos. God læselyst!</p>
+  <div class="lg:grid lg:grid-cols-2">
+    <div class="lg:cols-span-1 flex flex-col">
+  <div class="sm:mt-8 mt-36">
+    <hr class="lg:mx-12 md:visible invisible border-5 mx-24 border-primary"/>
+    <h2 class="lg:ml-12 lg:text-3xl md:ml-12 sm:text-xl ml-8 text-2xl mt-12">De danske streetfotografers bibel</h2>
+    <p class="lg:ml-12 lg:text-lg md:ml-12 sm:max-w-sm text-left ml-8 mr-12 mt-2 leading-relaxed">"Københavnerbilleder" er en fusion mellem et kunstværk og en lærebog. Bogen gennemgår alle væsentlige aspekter af streetfotografering fra grundlæggende teknik til kreative eksperimenter. Alt sammen krydret med masser af inspirerende fotos. God læselyst!</p>
   </div>
-  <!--Liste over kapitler-->
-  <div class="bg-cyan-700 pb-8">
-    <img src="img/kobenhavnerbilleder-sten-simons.jpg" alt="billede2">
-    <h2 class="mx-8 mt-8 text-2xl font-bold mb-4 text-white">Bogen indeholder..</h2>
-    <ul class="mx-8 text-slate-300">
-    <li><p class="text-slate-200 font-semibold">Kapitel 1 - Intro til street foto</p>
-      Hvad er street foto? Det handler i bund og grund om at skyde byens liv og byens geometri (urban geometry). I dette kapitel får du en grundig intro til hvad street foto er og et overblik over nogen af de kendte street-fotografer. Alt krydret med en masse gode eksempler på street fotos.
-      </li>
-    <li class="mt-4"><p class="text-slate-200 font-semibold">Kapitel 2 - Om at skyde street</p>
-      Vil du skyde street? Så er der ikke nogen vej udenom: Du skal ud på gaderne og prøve det! I dette kapitel får du en teknisk indføring i hvordan du bedst skyder street. Uanset om du er begynder eller professionel, er der mange gode tekniske tips og tricks til street-skyderiet.
-      </li>
-    <li class="mt-4"><p class="text-slate-200 font-semibold">Kapitel 3 - Om at finde det rette motiv</p>
-      Indimellem er man heldig, andre gange kommer man hjem helt uden gode motiver. Med et par tips og tricks til at finde de rette motiver, stiger chancen gevaldigt for at fange de gode motiver.
-      </li>
-    <li class="mt-4"><p class="text-slate-200 font-semibold">Kapitel 4 - Digital street foto</p>
-      De fleste af os skyder oftest digitalt fordi det er billigere og nemmere. Og nogen teknikker og fremgangsmåder egner sig kun til digital street foto. I dette kapitel får du en række tips og tricks til digital street-foto
-      </li>
-    <li class="mt-4"><p class="text-slate-200 font-semibold">Kapitel 5 - Analog street foto</p>
-      Analog er sejt fordi det er mere “ægte,” dyrere og mere besværligt end digital. Det signalerer entusiasme. Nogle teknikker og fremgangsmåder egner sig bedst til analog street foto. I dette kapitel får du en række tips og tricks til analog street-foto. 
-      </li>
-    <li class="mt-4"><p class="text-slate-200 font-semibold">Kapitel 6 - Om at skyde sort/hvid</p>
-      Alle street-fotografer skyder sort/hvid nu og da. Nogen altid. Hvorfor? Hvad er der specielt ved sort/hvid fotografering, og hvad adskiller sort/hvid fra farvefotografering? Her får du en række tips og tricks til sort/hvid fotografering. 
-      </li>
-    <li class="mt-4"><p class="text-slate-200 font-semibold">Kapitel 7 - Kreative teknikker</p>
-      Dobbelteksponeringer, ICM (intentional camera moves), smadrede objektiver, gamle filmruller og alle mulige andre, spændende kreative teknikker kan løfte dine fotografier fra at være kedelige dokumentationer af hverdagen til at blive vilde kunststykker. Så dyk ned i dette kapitel om eksperimenterende teknikker!
-      </li>
-      <li class="mt-4"><p class="text-slate-200 font-semibold">Kapitel 8 - Kom helt tæt på!</p>
-        Street foto handler om at fotografere livet på gaden - men tør du at gå helt tæt på fremmede mennesker og knipse løs? Du kan lige så godt øve dig, for det er det der vil gøre dig til en bedre street-fotograf…
-        </li>
-  </ul>
-  <p class="mt-8 text-center text-white">Snus til kapitel 1 - DOWNLOAD HER</p>
-</div>
-<!--Anbefalinger-->
-<div class="mx-8 mt-12">
-  <div><img src="img/1.png" alt="5 stjerner" class="w-28"><p class="leading-relaxed text-center mb-2 text-sm">"Københavnerbilleder er en grundig introduktion til at skyde billeder med retro-kant. Hvad enten du er har arbejdet med foto siden 135-filmen kom på markedet, du kun har skudt digitalt eller er helt nybegynder, er der masser af tips og tricks i bogen."
-    </p><p class="text-right text-xs mb-8 font-semibold">Hanne Hovgaard, Berlingeren
-    </p></div>
-  <div><img src="img/2.png" alt="4 stjerner" class="w-28"><p class="leading-relaxed text-center mb-2 text-sm">"Teksten er underholdende, og billederne er sku’ flotte. <br>Hvad mere skal man sige om en fotobog?"
-   </p><p class="text-right text-xs mb-8 font-semibold">Kim Kloggaard, Fotojournalen.dk
-    </p></div>
-  <div><img img src="img/3.png" alt="4 stjerner" class="w-28"><p class="leading-relaxed text-center mb-2 text-sm">"Sten Simons kan det der - og han bliver bedre og bedre. Stens tredje fotobog er klart den bedste - her er han for alvor i sit rette element, meget bedre end “studiefotografering som begyndere.” <br>Tillykke - godt arbejde."
-    </p><p class="text-right text-xs mb-8 font-semibold">Volmer Hansen, Lukkertiden.dk 
-    </p></div>
-</div>
-<!--Billeder fra bogen-->
-<div> <!--Nok flex ift placering og tekst ind over-->
-  <h2></h2>
-  <img src="img/orestad-til-islands-brygge-pentax-auto-110-8.jpg" alt="">
-  <img src="img/amarminoen-med-et-agfa-le-box-11.jpg">
-  <img src="img/orestad-til-islands-brygge-pentax-auto-110-17.jpg" alt="">
-</div>
-<!--Om forfatteren-->
-<div>
-  <img src="img/sten_simons.jpg" alt="forfatteren Sten Simons" class="w-96 mt-8 ml-8 mb-8">
-  <h2 class="mx-8 mt-8 text-2xl font-bold mb-4">Forfatteren bag..</h2>
-  <p class="mx-8 leading-relaxed mb-12">Sten Simons har en lang foto-karriere bag sig. Det hele startede i 00'erne, da han gik rundt i Pisserenden for at fotografere ungdommens forfald. Det ledte til en række udstillinger, og blev senere til hans først fotobog "Ungdomsdruk - pinlige billeder fra nattelivet".
-    Derefter tog karrieren fart: Han blev fotojournalist og dokumenterede en masse dagligdagsstof fra Amager på dagbladet "Amagerkaneren". Sideløbende begyndte han at undervise i foto, og har skrevet et utal af bøger, herunder bestsellerne "Scener fra S-toget", "Brun mad - en visuel odyssé", og lærebogen "Fotografering for evnesvage".</p>
-</div>
-<!--Stamdata og købknap-->
-<div class="bg-cyan-700">
-  <div><p class="ml-8 mr-12 italic mt-8 py-12 text-slate-200 leading-relaxed">
-    Titel: <strong>"Københavnerbilleder - en guide til hipster foto"</strong>
+  <div class="xl:mt-48 lg:mr-16 lg:mt-16 mr-11 mt-36 mb-12">
+    <p class="xl:text-sm lg:text-xs leading-relaxed text-sm text-right">
+    Titel: <span class="text-primary500">"Københavnerbilleder 
+      <br>- en guide til hipster foto"</span>
     <br>Forfatter: Sten Simons
     <br>Antal sider: 344
     <br>Forlag: Mellem Linjerne
     <br>ISBN: 987-6-987654-32-1
     </p></div>
-  <div><p class="knap text-white text-3xl mt-8 mb-8">Køb dit eksemplar for 399,-</p><button></button></div>
+  </div>
+  <!--Liste over kapitler-->
+  <div class="lg:bg-komplimenter100 lg:bg-opacity-30 bg-komplimenter bg-opacity-30 pb-8">
+    <div class="py-12">
+      <picture><source srcset="img/kobenhavnerbilleder-sten-simons-nobg.avif" type="image/avif"><img src="img/kobenhavnerbilleder-sten-simons-nobg.webp" alt="Bogen" width="4000" height="3000"></picture></div>
+  </div></div>
+  <div class="bg-komplimenter bg-opacity-30 pb-8">
+      <h2 class="lg:pt-16 lg:text-3xl lg:ml-12 md:ml-12 mx-8 text-2xl mb-4 text-komplimenter100 tracking-wide">Du kan glæde dig til..</h2>
+    <ul class="lg:ml-12 lg:mr-20 md:grid md:grid-cols-2 md:gap-x-12 md:ml-12 ml-8 mr-12 text-zinc-800">
+    <li class="mb-8"><p class="text-komplimenter font-medium">Kapitel 1 - Intro til street foto</p>
+      Hvad er street foto? Det handler i bund og grund om at skyde byens liv og byens geometri (urban geometry). I dette kapitel får du en grundig intro til hvad street foto er og et overblik over nogen af de kendte street-fotografer. Alt krydret med en masse gode eksempler på street fotos.
+      </li>
+    <li class="md:mt-0 md:mb-0 mt-4 mb-8"><p class="text-komplimenter font-medium">Kapitel 2 - Om at skyde street</p>
+      Vil du skyde street? Så er der ikke nogen vej udenom: Du skal ud på gaderne og prøve det! I dette kapitel får du en teknisk indføring i hvordan du bedst skyder street. Uanset om du er begynder eller professionel, er der mange gode tekniske tips og tricks til street-skyderiet.
+      </li>
+    <li class="md:mt-0 md:mb-0 mt-4 mb-8"><p class="text-komplimenter font-medium">Kapitel 3 - Om at finde det rette motiv</p>
+      Indimellem er man heldig, andre gange kommer man hjem helt uden gode motiver. Med et par tips og tricks til at finde de rette motiver, stiger chancen gevaldigt for at fange de gode motiver.
+      </li>
+    <li class="md:mt-0 mt-4 mb-8"><p class="text-komplimenter font-medium">Kapitel 4 - Digital street foto</p>
+      De fleste af os skyder oftest digitalt fordi det er billigere og nemmere. Og nogen teknikker og fremgangsmåder egner sig kun til digital street foto. I dette kapitel får du en række tips og tricks til digital street-foto
+      </li>
+    <li class="md:mt-0 md:mb-0 mt-4 mb-8"><p class="text-komplimenter font-medium">Kapitel 5 - Analog street foto</p>
+      Analog er sejt fordi det er mere “ægte,” dyrere og mere besværligt end digital. Det signalerer entusiasme. Nogle teknikker og fremgangsmåder egner sig bedst til analog street foto. I dette kapitel får du en række tips og tricks til analog street-foto. 
+      </li>
+    <li class="md:mt-0 md:mb-0 mt-4 mb-8"><p class="text-komplimenter font-medium">Kapitel 6 - Om at skyde sort/hvid</p>
+      Alle street-fotografer skyder sort/hvid nu og da. Nogen altid. Hvorfor? Hvad er der specielt ved sort/hvid fotografering, og hvad adskiller sort/hvid fra farvefotografering? Her får du en række tips og tricks til sort/hvid fotografering. 
+      </li>
+    <li class="md:mb-0 mt-4 mb-8"><p class="text-komplimenter font-medium">Kapitel 7 - Kreative teknikker</p>
+      Dobbelteksponeringer, ICM (intentional camera moves), smadrede objektiver, gamle filmruller og alle mulige andre, spændende kreative teknikker kan løfte dine fotografier fra at være kedelige dokumentationer af hverdagen til at blive vilde kunststykker. Så dyk ned i dette kapitel om eksperimenterende teknikker!
+      </li>
+      <li class="md:mb-0 mt-4 mb-8"><p class="text-komplimenter font-medium">Kapitel 8 - Kom helt tæt på!</p>
+        Street foto handler om at fotografere livet på gaden - men tør du at gå helt tæt på fremmede mennesker og knipse løs? Du kan lige så godt øve dig, for det er det der vil gøre dig til en bedre street-fotograf…
+        </li>
+  </ul>
+  <div class="md:text-2xl mt-12 text-center text-komplimenter hover:text-primary500">
+  <a href="#0" class="hover:underline">Snus til kapitel 1 - DOWNLOAD HER</a></div>
 </div>
+<!--Anbefalinger-->
+<div class="xl:flex">
+  <div class="xl:w-1/2 xl:mx-0 xl:px-24 xl:mb-0 lg:mx-24 mx-8 mt-32 mb-8">
+  <div class="xl:px-0 md:px-36">
+    <div class="flex flex-row mb-2">
+      <svg width="24" height="24" viewBox="0 0 24 24"><path class="fill-primary" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg>
+      <svg width="24" height="24" viewBox="0 0 24 24"><path class="fill-primary" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg>
+      <svg width="24" height="24" viewBox="0 0 24 24"><path class="fill-primary" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg>
+      <svg width="24" height="24" viewBox="0 0 24 24"><path class="fill-primary" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg>
+      <svg width="24" height="24" viewBox="0 0 24 24"><path class="fill-primary" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg>
+      <svg width="24" height="24" viewBox="0 0 24 24"><path class="fill-primary" d="m22 9.24l-7.19-.62L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27L18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27l1-4.28l-3.32-2.88l4.38-.38L12 6.1l1.71 4.04l4.38.38l-3.32 2.88l1 4.28L12 15.4z"/></svg>
+    </div>
+    <p class="xl:mb-0 xl:text-base leading-relaxed mb-2 text-sm text-zinc-800">"Københavnerbilleder er en grundig introduktion til at skyde billeder med retro-kant. Hvad enten du er har arbejdet med foto siden 135-filmen kom på markedet, du kun har skudt digitalt eller er helt nybegynder, er der masser af tips og tricks i bogen."
+    </p><p class="text-right text-xs mb-8 font-semibold text-primary500">Hanne Hovgaard, Berlingeren
+    </p></div>
+  <div class="xl:px-0 md:px-36 mt-16">
+    <div class="flex flex-row mb-2">
+      <svg width="24" height="24" viewBox="0 0 24 24"><path class="fill-primary" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg>
+      <svg width="24" height="24" viewBox="0 0 24 24"><path class="fill-primary" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg>
+      <svg width="24" height="24" viewBox="0 0 24 24"><path class="fill-primary" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg>
+      <svg width="24" height="24" viewBox="0 0 24 24"><path class="fill-primary" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg>
+      <svg width="24" height="24" viewBox="0 0 24 24"><path class="fill-primary" d="m22 9.24l-7.19-.62L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27L18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27l1-4.28l-3.32-2.88l4.38-.38L12 6.1l1.71 4.04l4.38.38l-3.32 2.88l1 4.28L12 15.4z"/></svg>
+      <svg width="24" height="24" viewBox="0 0 24 24"><path class="fill-primary" d="m22 9.24l-7.19-.62L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27L18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27l1-4.28l-3.32-2.88l4.38-.38L12 6.1l1.71 4.04l4.38.38l-3.32 2.88l1 4.28L12 15.4z"/></svg>
+    </div>
+    <p class="xl:mb-0 xl:text-base leading-relaxed mb-2 text-sm text-zinc-800">"Teksten er underholdende, og billederne er sku' flotte. Hvad mere skal man sige om en fotobog?"
+   </p><p class="text-right text-xs mb-8 font-semibold text-primary500">Kim Kloggaard, Fotojournalen.dk
+    </p></div>
+  <div class="xl:px-0 md:px-36 mt-16 mb-32">
+    <div class="flex flex-row mb-2">
+      <svg width="24" height="24" viewBox="0 0 24 24"><path class="fill-primary" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg>
+      <svg width="24" height="24" viewBox="0 0 24 24"><path class="fill-primary" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg>
+      <svg width="24" height="24" viewBox="0 0 24 24"><path class="fill-primary" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg>
+      <svg width="24" height="24" viewBox="0 0 24 24"><path class="fill-primary" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg>
+      <svg width="24" height="24" viewBox="0 0 24 24"><path class="fill-primary" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg>
+      <svg width="24" height="24" viewBox="0 0 24 24"><path class="fill-primary" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"/></svg>
+    </div>
+    <p class="xl:mb-0 xl:text-base leading-relaxed mb-2 text-sm text-zinc-800">"Sten Simons kan det der - og han bliver bedre og bedre. Stens tredje fotobog er klart den bedste - her er han for alvor i sit rette element, meget bedre end "Studiefotografering for begyndere". Tillykke - godt arbejde."
+    </p><p class="text-right text-xs mb-8 font-semibold text-primary500">Volmer Hansen, Lukkertiden.dk 
+    </p></div>
+</div>
+<!--Billeder fra bogen-->
+<div class="xl:w-1/2 xl:px-0 xl:gap-0 md:grid md:grid-cols-2 lg:gap-8 lg:px-8">
+  <picture><source srcset="img/orestad-til-islands-brygge-pentax-auto-110-8.avif" type="image/avif">
+    <img src="img/orestad-til-islands-brygge-pentax-auto-110-8.webp" alt="islands brygge"></picture>
+  
+    <picture><source srcset="img/orestad-til-islands-brygge-pentax-auto-110-16.avif" type="image/avif">
+      <img src="img/orestad-til-islands-brygge-pentax-auto-110-16.webp" alt="Ørestad"></picture>
+
+    <picture class="lg:object-cover"><source srcset="img/orestad-til-islands-brygge-pentax-auto-110-14.avif" type="image/avif">
+    <img src="img/orestad-til-islands-brygge-pentax-auto-110-14.webp" alt="amarminoen"></picture>
+  
+    <picture class="lg:object-cover"><source srcset="img/orestad-til-islands-brygge-pentax-auto-110-17.avif" type="image/avif">
+    <img src="img/orestad-til-islands-brygge-pentax-auto-110-17.webp" alt="amarminoen"></picture> 
+</div></div>
+<!--Om forfatteren-->
+<div class="xl:mt-16 lg:flex-row lg:place-items-center flex flex-col place-content-center">
+  <picture>
+    <source srcset="img/sten_simons.avif" type="image/avif">
+  <img src="img/sten_simons.webp" alt="forfatteren" width="3456" height="5184" class="xl:p-0 lg:p-4 lg:mt-16 lg:ml-20 px-16 py-16"></picture>
+  <div class="xl:p-32 lg:mt-16 lg:ml-32 lg:pr-12 md:px-8">
+    <h2 class="sm:mt-1 mx-8 mt-8 text-2xl font-bold mb-4 tracking-wide text-komplimenter">Ham, der skrev den</h2>
+  <p class="mx-8 leading-relaxed">Sten Simons har en lang foto-karriere bag sig. Det hele startede i 00'erne, da han gik rundt i Pisserenden for at fotografere ungdommens forfald. Det ledte til en række udstillinger, og blev senere til hans først fotobog "Ungdomsdruk - pinlige billeder fra nattelivet".
+    Derefter tog karrieren fart: Han blev fotojournalist og dokumenterede en masse dagligdagsstof fra Amager på dagbladet "Amagerkaneren". Sideløbende begyndte han at undervise i foto, og har skrevet et utal af bøger, herunder <span class="text-komplimenter font-semibold">Bestsellerne</span> "Scener fra S-toget", "Brun mad - en visuel odyssé", og lærebogen "Fotografering for evnesvage".</p>
+  </div>
+</div>
+<!--Købknap-->
+  <div class="xl:mt-24 md:mt-16 md:mb-16 sm:mb-16 flex place-content-center mb-20 mt-8"><a href="#0" class="xl:text-4xl knap text-komplimenter text-3xl">Køb dit eksemplar for 399,-</a></div>
 <!--Footer-->
-<footer><p>afsluttende tekst, copyright..</p></footer>
+<footer class="flex place-content-around py-3 italic">
+  <p class=" text-primary300">KEA</p>
+  <p class=" text-primary300">"Københavnerbilleder"</p>
+  <p class=" text-primary300">2022</p>
+</footer>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
